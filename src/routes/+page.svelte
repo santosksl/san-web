@@ -3,10 +3,10 @@
         <h1 class="text-orange-400 font-extrabold text-5xl">Bem vindo(a)</h1>
 
         <p>
-            ao San Connect a rede social dos jogadores de
-            <a href="https://www.sa-mp.mp/" target="_blank" class="hover:text-orange-400">
-                San Andreas Multiplayer
+            ao <a href="https:/github.com/santosksl/san-web" target="_blank" class="hover:text-orange-400">
+                San Connect
             </a> 
+            um projeto open-source de um chat
         </p>
     </div>
 
