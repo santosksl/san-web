@@ -12,14 +12,17 @@ import { MessageCircle, PhoneCall, Users } from "@lucide/svelte";
     
             <div class="w-full">
                 <ul class="text-sm flex items-center justify-between mt-10 px-10">
-                    <li>
+                    <li class="hover:text-orange-400 cursor-pointer duration-300 flex flex-col text-[12px] font-semibold items-center justify-center">
                         <MessageCircle />
+                        <span>MENSAGENS</span>
                     </li>
-                    <li>
+                    <li class="hover:text-orange-400 cursor-pointer duration-300  flex flex-col text-[12px] font-semibold items-center justify-center">
                         <Users />
+                        <span>GRUPOS</span>
                     </li>
-                    <li>
+                    <li class="hover:text-orange-400 cursor-pointer duration-300 flex flex-col text-[12px] font-semibold items-center justify-center">
                         <PhoneCall />
+                        <span>LIGAÇÕES</span>
                     </li>
                 </ul>
             </div>
